@@ -1,0 +1,660 @@
+body{
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+
+	background-color: #FF5336;
+	font-family: Courier New;
+	font-size: 16px;
+	
+	text-align: center;
+}
+
+#formWrap{
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 750px;
+	width: 100%;
+	text-align: left;
+	margin-top: 8px;
+	padding: 6px;
+	background: #ececec;
+}
+
+.logo_div #logo{
+	max-width: 18%;
+	width: 100%;
+	float: left;	
+}
+
+.logo_div_mid #logo_mid{
+	max-width: 10%;
+	width: 100%;
+}
+
+.logo_div *, .logo_div_mid * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.logo_div , .logo_div_mid{
+	position: relative;
+	margin: 1%;
+	overflow: hidden;
+	width: 540px;
+
+	max-width: 18%;
+	width: 100%;
+}
+
+.logo_div{
+	float: left;
+}
+
+.logo_div #logo, .logo_div_mid #logo_mid{
+	max-width: 100%;
+
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.logo_div:hover #logo , .logo_div_mid:hover #logo_mid{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.1);
+}
+
+nav{
+	resize: both;
+	display: inline-block;
+	max-width: 1000px;
+	width: 100%;
+	top: 25;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	align-items: center;	
+	text-align: center;
+}
+
+.section_1 p{
+	display: inline-block;
+	float: right;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 2px;
+	margin-top:5%;
+
+	font-family: Courier New;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+.section_1 #sign_out_btn{
+	display: inline-block;
+	float: right;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	margin-top:5%;
+	margin-left: 2%;
+
+	font-family: Courier New;
+	font-size: 14px;
+	font-weight: bold;	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+}
+
+#msg_to_nonuser{
+	display: block;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 2px;
+	margin-bottom: 0.5%;
+
+	font-family: Courier New;
+	font-size: 18px;
+	font-weight: bold;	
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+.section_1 #msg_to_nonuser{
+	float: right;
+	font-size: 24px;
+}
+
+.pg2_div{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	max-width: 900px;
+	width: 100%;
+	padding: 8px;
+	background: #ececec;
+}
+
+.section_2 {
+	display: table;
+	margin: 0 auto;
+    text-align: left;
+}
+nav button{
+	font-family: Courier New;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	float: right;
+	color: #000000;
+	border-radius: 20px;
+	height: 40px;
+	width: 20%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	margin-top:3%;
+	margin-left: 1%;
+	text-align: center;
+	vertical-align: center;
+	border-color: #323232;
+}
+
+#search{
+	font-family: Courier New;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-radius: 20px;
+	height: 40px;
+	width: 100%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	margin-top:3%;
+	text-align: center;
+	background-color: #ff8533;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+#search:disabled{
+	background-color: #999ea2;
+	background-image: none;
+}
+
+#hotel_images{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100%;
+	width: 300px;
+}
+
+input{
+	font-family: Courier New;
+	font-size: 16px;
+}
+
+label{
+	font-weight: bold;
+}
+
+
+input, select {
+    width:95%;
+}
+
+#nocities_msg{
+	text-align: center;
+	margin: 0 auto;
+	font-family: Courier New;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	border:2px; border-style:dashed; border-color:#000000; padding: 0.2em;
+}
+
+#noroom{
+	text-align: center;
+}
+
+table{
+	width: 100%;
+}
+
+.page_1_table{
+	text-align: left;
+
+}
+
+.page_1_table td{
+	width: 200px;
+}
+
+.table_hotel_details td{
+	border: 1px solid black;	
+}
+
+.table_hotel_details button{
+	font-family: Courier New;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+	height: 40px;
+	max-width: 80%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: #99ff99;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;	
+}
+
+.pg2_div table{
+	border: 1px solid black;
+	border-radius: 10px;
+	border-color: #323232;
+}
+
+.page_2_table th{
+	border: 1px solid black;
+	border-radius: 20px;
+	border-color: #323232;
+}
+
+
+.page_2_table td{
+	border: 1px solid black;
+	border-radius: 20px;
+	border-color: #323232;
+}
+
+.page_2_table, .table_hotel_details{
+	text-align: center;
+}
+
+.page_2_table button{
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px 30px;
+	text-align: center;
+	background-color: #99ff99;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+.page_2_table button:disabled{
+	background-color: #999ea2;
+	background-image: none;
+}
+
+
+
+#total_price_btax{
+	font-weight: bold;
+}
+
+#price_display_col p{
+	text-align: left;
+	margin-left: 20%;
+}
+
+
+
+
+.fieldValid{
+	display: none;
+}
+
+.fieldNotValid{
+	visibility: visible;
+	font-size: 14px;
+	font-style: italic;
+	color: #FF6666;
+}
+
+
+
+.reglogin_pg{
+	width: 650px;
+	margin: 0 auto; 
+	margin-top: 8px;
+	padding: 6px;
+	background: #ececec;
+	text-align: center;
+}
+
+.register_form{
+	display: inline-block;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 8px;
+	padding: 6px;
+	background: #ececec;
+}
+
+#register_btn{
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-radius: 20px;
+	border-color: #323232;
+	height: 40px;
+	max-width: 30%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	margin-top:3%;
+	text-align: center;
+	background-color: #ff8533;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+.reg_btn_div{
+	text-align: center;
+}
+
+.reg_btn_div a{
+	font-size: 12px;
+}
+
+
+#register_tbl{
+	padding: 10px;
+	text-align: left;
+}
+
+#register_tbl td{
+	vertical-align: top;
+}
+
+.reglogin_nav{
+	width: 100%;
+	text-align: center;
+}
+
+.reglogin_nav h1{
+	display: inline-block;
+	margin:0 auto;
+}
+
+
+.reglogin_nav a img{
+	width: 35px;
+	float: left;
+}
+
+.reglogin_nav #kk{
+	width: 35px;
+	float: right;
+}
+
+
+
+.log_form{
+	display: inline-block;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 8px;
+	padding: 6px;
+	background: #ececec;
+}
+
+#login_btn{
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+	height: 40px;
+	max-width: 30%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	margin-top:3%;
+	text-align: center;
+	background-color: #99ff99;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+#login_msg{
+	font-family: Courier New;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	color: red;
+}
+
+
+.logout_pg{
+	border:2px; border-style:dashed; border-color:#000000; padding: 0.5em;
+	max-width: 500px;
+	width: 100%;
+	height: 300px;
+	background-color: #ececec;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+	}
+
+.logout_pg p{
+	display: inline-block;
+	margin: 0px auto;
+	padding: 5px;
+	margin-top:1%;
+	margin-bottom: 1%;
+
+	font-family: Courier New;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.logout_pg button{
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+	height: 40px;
+	max-width: 80%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #99ff99;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+
+.confirm_pg{
+	border:2px; border-style:dashed; border-color:#000000; padding: 0.5em;
+	max-width: 700px;
+	width: 100%;
+	height: 300px;
+	background-color: #ececec;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+}
+
+#confirm_email_div{
+	display: inline-block;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 8px;
+	padding: 6px;
+	background: #ececec;
+}
+
+#confirm_stay_btn{
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 0px auto;
+	padding: 10px 30px;
+	text-align: center;
+	background-color: #99ff99;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+.booked_hotel{
+	border:2px; border-style:dashed; border-color:#000000; padding: 0.5em;
+	max-width: 500px;
+	width: 100%;
+	height: 300px;
+	background-color: #ececec;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+}
+
+.booked_hotel h2, .logout_pg h2{
+	font-size: 100px;
+	display: block;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.booked_hotel p, .reg_confirm p{
+	display: inline-block;
+	margin: 0px auto;
+	padding: 5px;
+	margin-top:1%;
+	margin-bottom: 1%;
+
+	font-family: Courier New;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.booked_hotel button, .reg_confirm button{
+	font-family: Courier New;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+	border-color: #323232;
+	border-radius: 20px;
+	height: 40px;
+	max-width: 80%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #99ff99;
+
+	background-image: url("../img/wallpaper.jpg"); /*https://www.wyo-opto.com/wp-content/uploads/2016/01/minimal-gray-to-white-gradient-wallpapers.jpg*/
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center center;
+  	background-size: cover;
+}
+
+.reg_confirm{
+	border:2px; border-style:dashed; border-color:#000000; padding: 0.5em;
+	max-width: 500px;
+	width: 100%;
+	height: 300px;
+	background-color: #ececec;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+}
+
+.reg_confirm h2{
+	font-size: 120px;
+	display: block;
+	margin: 0 auto;
+	padding: 0px;
+}

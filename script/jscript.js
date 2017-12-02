@@ -17,7 +17,6 @@ function getCheckInOrCheckOutDate(dateToCheck){
 }
 
 
-
 function goBack() {
 	window.history.back(-1);
 	console.log("ss");
@@ -278,6 +277,16 @@ function validation(){
 		document.getElementById("check_out").className = 'fieldNotValid';
 		isFieldValid[3] = false;
 	}else{
+		document.getElementById("check_out").className = 'fieldValid';
+		isFieldValid[3] = true;
+	}
+
+	if(selectedDateChIn.value > selectedDateChOut.value){
+		document.getElementById("check_out").innerHTML = "*Error - Check-in > Check-Out";
+		document.getElementById("check_out").className = 'fieldNotValid';
+		isFieldValid[3] = false;
+	}else{
+		document.getElementById("check_out").innerHTML = "* Required";
 		document.getElementById("check_out").className = 'fieldValid';
 		isFieldValid[3] = true;
 	}

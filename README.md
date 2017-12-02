@@ -2,7 +2,7 @@
 
 | Language | Framework | Platform | Author |
 | -------- | -------- |--------|--------|
-| PHP |  | Azure Web App, Virtual Machine| |
+| PHP, HTML5, Javascript |  | Azure Web App, Virtual Machine| Karan Patel |
 
 
 # PHP web application

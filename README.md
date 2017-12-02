@@ -7,7 +7,7 @@
 
 # PHP web application
 
-Sample PHP web application that you can deploy to Azure.
+Deployment of Assignment 4 
 
 
 ## License:

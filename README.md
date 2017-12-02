@@ -7,7 +7,7 @@
 
 # PHP web application
 
-Deployment of Assignment 4 
+Deployment of Assignment 4 -->
 http://book-my-hotel-db-git-passage.azurewebsites.net/
 
 ## License:

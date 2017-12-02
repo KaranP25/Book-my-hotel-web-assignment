@@ -54,12 +54,14 @@ function todayValid(){
 
     document.getElementsByName("check_out_date")[0].setAttribute('min', tomorrow);
 
-   /*if(dateArrival != undefined){
-    	var nextDay = new Date(dateArrival);
-    	nextDay.setDate(nextDay.getDate() + 1);
-    	var nextDatISOString = nextDay.toISOString().split('T')[0];
-    	document.getElementsByName("check_out_date")[0].setAttribute('min', nextDatISOString);
-    }*/
+   if(dateArrival != undefined){
+    	var tomorrowDateX = new Date(dateArrival);
+    	tomorrowDateX.setDate(tomorrowDateX.getDate() + 1);     
+	    var tzoffsetTmrrwX = (tomorrowDateX).getTimezoneOffset() * 60000; //offset in milliseconds
+	    var localISOTimeTmrrwX = (new Date(tomorrowDateX.getTime() - tzoffsetTmrrwX)).toISOString().slice(0, -1);
+	    var tomorrowX = localISOTimeTmrrwX.split('T')[0];
+    	document.getElementsByName("check_out_date")[0].setAttribute('min', tomorrowX);
+    }
 }
 
 function arrivalDateSet(selectdate){

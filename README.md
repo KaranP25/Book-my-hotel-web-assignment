@@ -8,7 +8,7 @@
 # PHP web application
 
 Deployment of Assignment 4 -->
-![](http://bookmyhotel.azurewebsites.net/)
+[Link to the Site!](http://bookmyhotel.azurewebsites.net/)
 
 ## License:
 

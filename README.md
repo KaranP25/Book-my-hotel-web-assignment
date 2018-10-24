@@ -7,7 +7,7 @@
 
 # PHP web application
 
-Deployment of Web Programming final Assignment  -->
+Deployment on Azure  -->
 [Link to the Site!](http://bookmyhotel.azurewebsites.net/)
 
 ## License:

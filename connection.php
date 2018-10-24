@@ -1,8 +1,8 @@
 <?php
-   /* $servername = "ca-cdbr-azure-east-a.cloudapp.net";
-    $username =   "bd9fd31126a687";
-    $password =   "c6e7e46d";
-    $dbname =     "myhoteldb";
+   /* $servername = "<ADD_SERVERNAME>";
+    $username =   "<ADD_USERNAME>";
+    $password =   "<ADD_PASSWORD>";
+    $dbname =     "<ADD_DBNAME>";
     $conn = new mysqli($servername, $username, $password, $dbname);
 
         // Check connection
